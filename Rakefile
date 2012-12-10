@@ -1,5 +1,4 @@
 # encoding: utf-8
-
 require 'rubygems'
 require 'bundler'
 begin
@@ -43,7 +42,9 @@ end
 require 'cucumber/rake/task'
 Cucumber::Rake::Task.new(:features)
 
-task :default => :test
+task :full_build => [ :clean, :test, :features, :rdoc ]
+
+task :default => :full_build
 
 require 'rdoc/task'
 Rake::RDocTask.new do |rdoc|

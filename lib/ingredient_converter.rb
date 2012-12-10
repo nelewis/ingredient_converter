@@ -1,0 +1,2 @@
+class USingredientConverter
+end
