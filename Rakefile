@@ -42,7 +42,7 @@ end
 require 'cucumber/rake/task'
 Cucumber::Rake::Task.new(:features)
 
-task :full_build => [ :clean, :test, :features, :rdoc, :release ]
+task :full_build => [ :clean, :test, :features, :rdoc ]
 
 task :default => :full_build
 
