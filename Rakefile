@@ -2,7 +2,6 @@
 
 require 'rubygems'
 require 'bundler'
-require 'appraisal'
 begin
   Bundler.setup(:default, :development)
 rescue Bundler::BundlerError => e
