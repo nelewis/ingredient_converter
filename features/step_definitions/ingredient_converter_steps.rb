@@ -1,4 +1,4 @@
-require_relative '..\..\lib\ingredient_converter.rb'
+require_relative '../../lib/ingredient_converter.rb'
 #arrange
 Given /^I have a block of butter$/ do
   @converter = USingredientConverter.new
