@@ -27,6 +27,7 @@ Gem::Specification.new do |s|
     "features/ingredient_converter.feature",
     "features/step_definitions/ingredient_converter_steps.rb",
     "features/support/env.rb",
+    "ingredient_converter.gemspec",
     "lib/ingredient_converter.rb",
     "test/helper.rb",
     "test/test_ingredient_converter.rb"
