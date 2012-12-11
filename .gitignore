@@ -17,6 +17,10 @@ Gemfile.lock
 pkg
 *.gemspec
 
+# Nicole generated
+/setup_commands.txt
+/setup_commands2.txt
+
 # Have editor/IDE/OS specific files you need to ignore? Consider using a global gitignore: 
 #
 # * Create a file at ~/.gitignore
