@@ -3,12 +3,18 @@ Feature: Ingredient converter
 	In order to use US measurements 
 	I would like to convert the US measurements into UK ones
 
-Scenario: Butter to tablespoons 
-	Given I have a block of butter
-	When I need to cut off 1 stick 
-	Then I weigh out 4oz as that is 8 tablespoons
+Scenario: 1 stick of butter to tablespoons 
+	Given I have an ingredient converter
+	When I convert 1 stick of butter to tablespoons
+	Then it shows me 8 tablespoons
 	
-Scenario: Butter to ounces
-	Given I have a block of butter
-	When I need to cut off 2 sticks
-	Then I weigh out 240g as that is 8oz
+Scenario: 1 stick of butter to ounces 
+	Given I have an ingredient converter
+	When I convert 1 stick of butter to ounces
+	Then it shows me 4 ounces
+	
+Scenario: 1 stick of butter to grams
+	Given I have an ingredient converter
+	When I convert 1 stick of butter to grams
+	Then it shows me 120 grams 
+

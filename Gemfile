@@ -11,5 +11,6 @@ group :development do
   gem "cucumber", ">= 0"
   gem "bundler", "~> 1" # > or = v1 and <2
   gem "jeweler", "~> 1.8.4"
+  gem "rspec", ">= 0"
 # gem "rcov", ">= 0"
 end
