@@ -1,25 +1,25 @@
 # encoding: UTF-8
     # :title:US to UK ingredient measurement converter
-    # = Name
+    # == Name
     # USingredientConverter
-    # = Synopsis
+    # == Synopsis
     # US to UK ingredient measurement converter
-    # = Description
+    # == Description
     # It is my final project for 2012 Fall Ruby language class
-    # = Todo
-    # == Upcoming Features
-    # 0. Nothing yet.
-    # == Known Issues
-    # 0. Nothing yet.
-    # = References
+    # == Todo
+    # === Upcoming Features
+    # 0. Ability to convert a stick of butter to not just ounces but to grams and tablespoons.  Also planned are from other types of measure such as flour, sugar, treacle.
+    # === Known Issues
+    # 0. Nothing yet as it is a stub :)
+    # == References
     # 0. <i>I made it up as I went along.</i>
-    # = License
+    # == License
     # This code is provided under the terms of the {MIT License.}[http://www.opensource.org/licenses/mit-license.php]
     #
     #--
     # This code is the proprietary intellectual property of its authors. It is not intended for publication.
     #++
-    # = Authors
+    # == Authors
     # Nicole Lewis
     #
 class USingredientConverter
