@@ -1,10 +1,13 @@
 = ingredient_converter
 
-Description goes here.
+This is a US to UK ingredient measurement converter and is ultimately my final project for the UW 2012 Fall Ruby Language class. 
+It was setup using jeweler, I can use rake to build it locally but is hooked into travis ci: https://travis-ci.org/nelewis/ingredient_converter for when it is pushed to github.
+
+Note: Currently this is a stub and will only return "8 ounces".
 
 == Contributing to ingredient_converter
- 
-* Check out the latest master to make sure the feature hasn't been implemented or the bug hasn't been fixed yet.
+
+* Check out the latest master https://github.com/nelewis/ingredient_converter to make sure the feature hasn't been implemented or the bug hasn't been fixed yet.
 * Check out the issue tracker to make sure someone already hasn't requested it and/or contributed it.
 * Fork the project.
 * Start a feature/bugfix branch.

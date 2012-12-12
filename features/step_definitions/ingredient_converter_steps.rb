@@ -5,8 +5,8 @@ Given /^I have an ingredient converter$/ do
 end
 
 #act
-When /^I convert (\d+) (\w+) of butter to (\w+)$/ do |from, type, to|
-	@result = @converter.convert(from, type, to)
+When /^I convert (\d+) stick of butter to (\w+)$/ do |unitsfrom, unitsto|
+	@result = @converter.convert(unitsfrom, unitsto)
 end
 
 #assert
